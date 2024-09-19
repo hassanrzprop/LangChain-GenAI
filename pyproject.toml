@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langchain-concepts-models-integration"
+version = "0.1.0"
+description = ""
+authors = ["hassanrzprop <hassanrzprop@gamil.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.0"
+langchain-core = "^0.3.0"
+langchain-community = "^0.3.0"
+langchain-huggingface = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
